@@ -6,4 +6,4 @@ This application uses a Test-Version of the Timestamp Rest API developed by A-Tr
 
 # Information
 
-The validation is in part based on the given Timestamp-Test-Certificate (Generation 07). If the validation fails, it may be the case that this certificate is not in use anymore.
+The validation is based on the given Timestamp-Test-Certificate. This is why e.g. Adobe Acrobat cannot successfully validate the Timestamp.
