@@ -38,6 +38,6 @@ if (tsResponse == null)
 #endregion
 
 // The certificate against which the TimestampToken will be validated in the validate method.
-byte[] tsTestCertificate = File.ReadAllBytes("../../../a-sign-Premium-07-Test-Timestamp.cer");
+byte[] tsTestCertificate = File.ReadAllBytes("../../../signer.cer");
 
 tsHelper.Validate(tsResponse, tsRequest, tsTestCertificate);
