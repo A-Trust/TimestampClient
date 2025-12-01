@@ -6,7 +6,7 @@ Console.WriteLine("Timestamp RFC 3161 will be retrieved:");
 #region appsettings
 string username = "test";
 string password = "test";
-string tsServerUrl = "https://test1.a-trust.at/";
+string tsServerUrl = "https://hs-abnahme.a-trust.at/";
 
 if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
 {
